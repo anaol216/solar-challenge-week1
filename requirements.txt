@@ -6,3 +6,5 @@ numpy
 plotly
 streamlit
 matplotlib
+seaborn
+
