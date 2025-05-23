@@ -9,3 +9,19 @@ This project compares solar energy potential in Benin, Sierra Leone, and Togo us
    ```bash
    python -m venv venv
    source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+---
+
+### ✅ 3. **requirements.txt**
+Add a `requirements.txt` with all dependencies:
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+jupyter
+```
+pip freeze > requirements.txt
